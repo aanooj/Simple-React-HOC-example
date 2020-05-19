@@ -1,6 +1,6 @@
 import React from "react";
 
-class renderAsFunction extends React.Component {
+class RenderAsFunction extends React.Component {
   constructor(props) {
     super(props);
     this.props = props;
@@ -11,4 +11,4 @@ class renderAsFunction extends React.Component {
   }
 }
 
-export default renderAsFunction;
+export default RenderAsFunction;
