@@ -4,6 +4,10 @@
   border: 1px solid gray;
 }
 
+.crazy {
+  background: red;
+}
+
 .fancy {
   list-style: none;
   list-style-image: url("http://placekitten.com/10/10");
