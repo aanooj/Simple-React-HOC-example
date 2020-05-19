@@ -1,4 +1,13 @@
-.simple {
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+ul li {
+  border: 1px solid black;
+  border-collapse: unset;
+}
+simple {
   list-style: none;
   text-align: left;
   border: 1px solid gray;
@@ -10,10 +19,10 @@
 
 .fancy {
   list-style: none;
-  list-style-image: url("http://placekitten.com/10/10");
+  list-style-image: url("http://placekitten.com/20/20");
 }
 
 .fancy li {
-  border: 1px solid red;
-  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
 }

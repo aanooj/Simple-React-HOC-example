@@ -8,12 +8,14 @@ import UsingRenderProps from "../HOC/usingRenderProps";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <RenderAsFunction>{props => <List {...props} />}</RenderAsFunction>
-      <UsingRenderProps render={props => <List {...props} />} />
+      <h2>Simple List component</h2>
       <List />
+      <h2>List component using HOC</h2>
       <FancyList />
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>List component as children function</h2>
+      <RenderAsFunction>{props => <List {...props} />}</RenderAsFunction>
+      <h2>List component as render prop</h2>
+      <UsingRenderProps render={props => <List {...props} />} />
     </div>
   );
 }

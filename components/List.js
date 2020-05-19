@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css";
 
-const iterator = [1, 2, 3, 4, 5];
+const todo = ["milk", "Banana", "Bread", "Ice Cream"];
 
 const List = props => {
-  const list = iterator.map((value, index) => <li key={index}>{value}</li>);
+  const list = todo.map((value, index) => <li key={index}>{value}</li>);
   return <ul className={props.style}>{list}</ul>;
 };
 
