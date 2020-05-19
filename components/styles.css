@@ -1,0 +1,15 @@
+.simple {
+  list-style: none;
+  text-align: left;
+  border: 1px solid gray;
+}
+
+.fancy {
+  list-style: none;
+  list-style-image: url("http://placekitten.com/10/10");
+}
+
+.fancy li {
+  border: 1px solid red;
+  text-align: left;
+}
